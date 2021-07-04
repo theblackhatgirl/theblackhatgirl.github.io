@@ -1,74 +1,110 @@
-<!DOCTYPE html> 
-    <html>
-        <head>
-        <meta charset="UTF-8"/>
-        <title>Meus filmes preferidos!</title>
-        <link href="css.css" rel="stylesheet"/>
-        </head>
-    <body>
-        <div id="textinho">
+<!DOCTYPE html>
+<html>
 
-        <h1>Meus filmes preferidos!</h1>
-        <h2>Olá! Seja bem vindo, fico feliz por te receber aqui!</h2>
-        <h3> 
-            Eu me chamo Ana, 
-            e assim como provavelmente grande maioria dos seres humanos, 
-            gosto muito de filmes. Na minha opinião, não existe nada melhor do que escapar da 
-            realidade assistindo ficção.
-            Gosto de filmes inteligentes de todos os gêneros, amo comédia, terror é
-            minha maior paixão na vida. Sou uma grande fã de Martin Scorsese,
-            David Fincher, Cristopher Nolan, Almodóvar, Hitchcock, Stanley Kubrick... 
-            Essa lista pode acabar ficando bem longa! Mas preciso fazer uma confissão:
-            Uma coisa que gosto mais do que ver um filme é RE-ver um filme que eu amo.
-            Já ouviu falar sobre guilty pleasures? Essa expressão não fica legal traduzida
-            em português, mas basicamente se trata de uma coisa que você gosta muito mas 
-            que pode ser considerada boba ou estranha e que você sente uma certa culpa por gastar 
-            seu tempo nisso!(pra mim, bobas são as pessoas que não se permitem fazer o que tem vontade.)
-            Meu guilty pleasure é assistir a mesma coisa um milhão de vezes! Faço isso desde criança.
-            Quando gosto de um filme, posso assistir todos os 
-            dias durante meses sem me cansar, e estou aqui para falar sobre os filmes que estou amando!
-      </h3>
-        <h2><bold>Em cada botão deste menu à sua esquerda, você saberá um pouco sobre meu top 5 melhores filmes do momento, clica aí! :) </bold> </h2>
-      
-      
+<head>
+    <meta charset="UTF-8" />
+    <title>Meus filmes preferidos!</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <link href="style.css" rel="stylesheet" />
+
+</head>
+
+<body>
+    <div class="container-fluid">
+
+        <div class="row">
+
+            <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12 order-sm-last">
+                <div class="row">
+                    <div class="col">
+                        <div id="menu">
+                            <ul>
+                                <li><a href="./paginas/jennifersbody.html">Jennifer's Body</a></li>
+                                <li><a href="./paginas/killbill.html">Kill Bill</a></li>
+                                <li><a href="./paginas/joker.html">Joker</a></li>
+                                <li><a href="./paginas/heathers.html">Heathers</a></li>
+                                <li><a href="./paginas/misery.html">Misery</a></li>
+                                <li><a href="./paginas/aboutme.html">Sobre Mim </a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col">
+                        <div id="user">
+                            <h2>Fale Comigo!</h2>
+                            <form action="#" method="GET">
+                                <fieldset>
+                                    <label for="id-nome">Qual seu nome?</label>
+                                    <input type="text" name="nome" id="id-nome"> <br>
+                    
+                                    <label for="id-email">Seu e-mail: </label>
+                                    <input type="email" name="email" id="id-email"> <br>
+                    
+                                    <label for="idade">Idade:</label>
+                                    <input type="number" min="0" max="100"> <br>
+                    
+                                    <label for="filme">Qual é seu filme preferido?</label>
+                                    <input type="text" name="filme" id="id-nome"> <br>
+                                    <br>
+                                    <button onclick="alert('Ok!')">Enviar</button>
+                                    <br> <br>
+                    
+                    
+                                </fieldset>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-xl-8 col-lg-8 col-md-12 col-sm-12">
+                <div id="textinho">
+
+                    <h1>Meus filmes preferidos!</h1>
+                    <h2>Olá! Seja bem vindo, fico feliz por te receber aqui!</h2>
+                    <h3>
+                        Assim como provavelmente grande maioria dos seres humanos, gosto muito de filmes. Na minha opinião, não
+                        existe nada melhor do que escapar da realidade assistindo ficção. Gosto de filmes inteligentes de todos os
+                        gêneros, amo comédia, terror é minha maior
+                        paixão na vida. Sou uma grande fã de Martin Scorsese, David Fincher, Cristopher Nolan, Almodóvar, Hitchcock,
+                        Stanley Kubrick... Essa lista pode acabar ficando bem longa! Mas preciso fazer uma confissão: Uma coisa que
+                        gosto mais do que ver
+                        um filme é RE-ver um filme que eu amo. Já ouviu falar sobre guilty pleasures? Essa expressão não fica legal
+                        traduzida em português, mas basicamente se trata de uma coisa que você gosta muito mas que pode ser
+                        considerada boba ou estranha e
+                        que você sente uma certa culpa por gastar seu tempo nisso!(pra mim, bobas são as pessoas que não se permitem
+                        fazer o que tem vontade.) Meu guilty pleasure é assistir a mesma coisa um milhão de vezes! Faço isso desde
+                        criança. Quando gosto de
+                        um filme, posso assistir todos os dias durante meses sem me cansar, e estou aqui para falar sobre os filmes
+                        que estou amando!
+                    </h3>
+                    <h2>
+                        <bold>Em cada botão deste menu à sua esquerda, você saberá um pouco sobre meu top 5 melhores filmes do
+                            momento, clica aí! :) </bold>
+                    </h2>
+            
+            
+                </div>
+            </div>
+        </div>
+
     </div>
- 
-     <div id="menu">
-       <ul>
-         <li><a href="./paginas/jennifersbody.html">Jennifer's Body</a></li>
-         <li><a href="./paginas/killbill.html">Kill Bill</a></li>
-         <li><a href="./paginas/joker.html">Joker</a></li>
-         <li><a href="./paginas/heathers.html">Heathers</a></li>
-         <li><a href="./paginas/misery.html">Misery</a></li>
-       </ul>
-     </div>
-
-     <br> <br>
-     
-     <div id="user"><h2>Fale Comigo!</h2>
-      <form action="#" method="GET">
-        <fieldset>
-            <label for="id-nome">Qual seu nome?</label>
-            <input type="text" name="nome" id="id-nome"> <br>
-
-            <label for="id-email">Seu e-mail: </label>
-            <input type="email" name="email" id="id-email"> <br>
-
-            <label for="idade">Idade:</label>
-            <input type="number" min="0" max="100"> <br>
-
-            <label for="filme">Qual é seu filme preferido?</label>
-            <input type="text" name="filme" id="id-nome"> <br>
-            <br>
-            <button onclick="alert('Ok!')">Enviar</button>
-            <br> <br>
-
-
-        </fieldset>
-    </form>
-  </div>
-
    
+
     
+
+  
+
+    
+
+
+
 </body>
+
 </html>

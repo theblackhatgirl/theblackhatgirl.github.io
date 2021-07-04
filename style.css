@@ -1,0 +1,59 @@
+body {
+    background-color: peachpuff;
+    color: #000;
+    font: 14px helvetica;
+}
+
+.container img {
+    text-align: center;
+    max-width: 900px;
+    max-height: 800px;
+    width: auto;
+    height: auto;
+}
+
+#textinho {
+    text-align: center;
+}
+
+#menu {
+    margin: 0;
+    margin-top: 30px;
+    padding: 0;
+}
+
+#menu ul{
+    padding: 0px;
+}
+
+#menu ul li {
+    margin: 0;
+    padding: 0px;
+    border-bottom: 1px solid rgb(70, 49, 49);
+    text-align: center;
+    list-style-type: none;
+}
+
+#menu a:link {
+    background: #F5F5F5;
+    color: black;
+    font-weight: bold;
+    text-decoration: inherit;
+    padding: 15px;
+    display: block;
+}
+
+#menu a:hover {
+    background: plum;
+    color: black;
+}
+
+#user {
+    position: relative;
+    padding: 20px;
+    margin: 0;
+    margin-top: 20px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column
+}
